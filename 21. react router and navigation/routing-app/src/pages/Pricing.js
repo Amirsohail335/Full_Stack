@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useLocation } from "react-router";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Pricing() {
 
