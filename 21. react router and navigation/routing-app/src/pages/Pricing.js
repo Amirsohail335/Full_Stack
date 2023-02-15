@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import { Outlet, useLocation } from "react-router";
+import { Link } from "react-router-dom";
 
 function Pricing() {
-  return (
-    <div>Pricing</div>
-  )
+
+    const location = useLocation();
+
+    console.log(location);
+
+    return (<div>
+        Show Pricing
+        
+        <Outlet />
+    </div>);
 }
 
-export default Pricing
+export default Pricing;

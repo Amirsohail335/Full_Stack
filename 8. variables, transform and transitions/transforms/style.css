@@ -9,7 +9,7 @@
 }
 
 .original {
-    background-color:rgb(233, 20, 48);
+    background-color:purple;
     /* transform: scale(0.8, 0.4); */
     /* transform: scaleX(0.8) scaleY(0.4); */
     /* transform: skew(-30deg, 5deg); */
@@ -23,5 +23,5 @@
 .original:hover {
     /* transform: rotate(60deg); */
     transform: scale(0.6);
-    background-color: rgb(56, 216, 34);
+    background-color: sandybrown;
 }

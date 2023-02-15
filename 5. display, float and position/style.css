@@ -4,21 +4,21 @@
 }
 
 .red-border {
-    border: 2px solid rgb(9, 6, 204);
+    border: 2px solid red;
 }
 
 .header-text {
-    background-color: rgb(0, 94, 89);
+    background-color: burlywood;
 }
 
 p {
-    width: 300px;
-    margin: 30px;
+    width: 400px;
+    margin: 40px;
     display: inline-block;
 }
 
 a {
-    width: 300px;
+    width: 400px;
     display: inline-block;
 }
 

@@ -1,17 +1,7 @@
-
 body {
     height: 100vh;
     background-color: red;
 }
-.Greeting {
-    color: rgb(192, 28, 143);
-
-}
-.finish {
-    color: rgb(221, 89, 13);
-}
-
-
 
 ul {
     list-style: none;
@@ -48,7 +38,7 @@ p {
 /* tablets only */
 @media only screen and (min-width: 641px) {
     body {
-        background-color: rgb(126, 128, 0);
+        background-color: green;
     }
 }
 

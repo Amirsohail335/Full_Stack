@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Form, Input, Select } from "antd";
+import { Button, Card, Form, Input, Select } from "antd";
 import { RiCoinsLine } from 'react-icons/ri';
 
 
@@ -37,7 +37,7 @@ function Converter() {
 
     useEffect(() => {
         
-        if(cryptoList.length === 0) return;
+        if(cryptoList.length == 0) return;
 
         const firstSelectRate = cryptoList.find((item) => {
             return item.value === firstSelect
@@ -49,11 +49,11 @@ function Converter() {
         const resultValue =  (inputValue * secondSelectRate) / firstSelectRate;
         setResult(resultValue.toFixed(6));
 
-    }, [inputValue, firstSelect, secondSelect, cryptoList])
+    }, [inputValue, firstSelect, secondSelect])
 
     return (
         <div className="container">
-            <Card className="crypto-card" title={<h1> <RiCoinsLine />Crypto Converter</h1>}>
+            <Card className="crypto-card" title={<h1> <RiCoinsLine /> Crypto Converter</h1>}>
                 <Form size="large">
                     <Form.Item>
                         <Input onChange={(event) => setInputValue(event.target.value)}/>

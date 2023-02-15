@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-
+import Card from "./components/Card";
+import Avatar from "./components/Avatar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -15,6 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //     padding: "20px",
 //     border: "10px solid green",
 // };
+
 // const sayHi = true;
 // let subHeading = "";
 
@@ -47,7 +49,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // }
 
 // myClock();
- 
+
 root.render(
   <React.StrictMode>
     <App />
