@@ -60,12 +60,12 @@ function selectSeats(seat) {
 //     }); 
 // }
 
-function submitPayments(name, seat, payment) {
-    return new Promise(function(resolve, reject) {
-        setTimeout(() => {
-            console.log('payment confirmed', name, 'with', payment);
-            resolve(`confirmed ${name} ${seat} ${payment}`);
-        }, 2000)
-    }); 
-}
+// function submitPayments(name, seat, payment) {
+//     return new Promise(function(resolve, reject) {
+//         setTimeout(() => {
+//             console.log('payment confirmed', name, 'with', payment);
+//             resolve(`confirmed ${name} ${seat} ${payment}`);
+//         }, 2000)
+//     }); 
+// }
 
