@@ -21,7 +21,7 @@ function getCheese(next) { // next is the callback funtion
 function makeDough(cheese, next) {
     setTimeout(() => {
         const dough = cheese + ' 🫓';
-        console.log(`Sending the ${dough}`);
+        console.log(`Sending the ${dough}`);   
         next(dough);
     }, 2000);
 }
