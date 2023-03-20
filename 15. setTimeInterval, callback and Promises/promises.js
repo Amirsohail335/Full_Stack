@@ -51,14 +51,14 @@ function selectSeats(seat) {
     }); 
 }
 
-// function enterDetails(name, seat) {
-//     return new Promise(function(resolve, reject) {
-//         setTimeout(() => {
-//             console.log('name binded', name, 'with', seat);
-//             resolve(`confirmed ${name} ${seat}`);
-//         }, 2000)
-//     }); 
-// }
+function enterDetails(name, seat) {
+    return new Promise(function(resolve, reject) {
+        setTimeout(() => {
+            console.log('name binded', name, 'with', seat);
+            resolve(`confirmed ${name} ${seat}`);
+        }, 2000)
+    }); 
+}
 
 // function submitPayments(name, seat, payment) {
 //     return new Promise(function(resolve, reject) {
@@ -68,4 +68,3 @@ function selectSeats(seat) {
 //         }, 2000)
 //     }); 
 // }
-
