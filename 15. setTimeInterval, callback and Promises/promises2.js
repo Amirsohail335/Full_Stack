@@ -6,13 +6,13 @@ async function getCheese() {
     })
 }
 
-function makeDough(cheese) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(`${cheese} dough 🫓`);
-        }, 2000)
-    })
-}
+// function makeDough(cheese) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(`${cheese} dough 🫓`);
+//         }, 2000)
+//     })
+// }
 
 function makePizza(dough) {
     return new Promise((resolve, reject) => {
