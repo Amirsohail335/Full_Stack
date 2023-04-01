@@ -29,18 +29,18 @@ pizzaPromise
 
 bookRailwayTicket();
 
-function bookRailwayTicket() {
-    const seat = 'A3';
-    const name = 'Anuj';
-    const payment = 870;
-    selectSeats(seat)
-        .then((seat) => {
-            enterDetails(name, seat)
-        })
-        .then((details) => {
-            submitPayments(name, seat, payment)
-        });
-}
+// function bookRailwayTicket() {
+//     const seat = 'A3';
+//     const name = 'Anuj';
+//     const payment = 870;
+//     selectSeats(seat)
+//         .then((seat) => {
+//             enterDetails(name, seat)
+//         })
+//         .then((details) => {
+//             submitPayments(name, seat, payment)
+//         });
+// }
 
 function selectSeats(seat) {
     return new Promise(function(resolve, reject) {
